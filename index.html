@@ -9,17 +9,13 @@
     <link rel="stylesheet" href="css/style.css">   
     <script src="https://kit.fontawesome.com/5e809a2fdd.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	  <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
     <script defer src="js/main.js"></script>
 </head>
 <body>
       <header id="header">
         <h1 id="logo">Portfolio</h1>
-        <ul id="gnb">
-          <li><a href="#">Company</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Information</a></li>
-          <li><a href="#">News</a></li>
-        </ul>
       </header>
 
       <section id="header2">
@@ -55,108 +51,266 @@
       </div>
 
 
+      <ul class="bg">
+          <li class="on"></li>
+          <li></li>
+          <li></li>
+          <li></li>
+      </ul>
 
-      <section class="swiper-container mySwiper2">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <img src="img/bg1.jpg"/>
-              <div class="inner">
-                <h1>01</h1>
-                <h2>
-                  And so the adventure begins
-                  <br>theuiuxcollective
-                </h2>
-                <a href="#">View more</a>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <img src="img/bg2.jpg"/>
-              <div class="inner">
-                <h1>02</h1>
-                <h2>
-                  And so the adventure begins
-                  <br>theuiuxcollective
-                </h2>
-                <a href="#">View more</a>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <img src="img/bg3.jpg"/>
-              <div class="inner">
-                <h1>03</h1>
-                <h2>
-                  And so the adventure begins
-                  <br>theuiuxcollective
-                </h2>
-                <a href="#">View more</a>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <img src="img/bg4.jpg"/>
-              <div class="inner">
-                <h1>04</h1>
-                <h2>
-                  And so the adventure begins
-                  <br>theuiuxcollective
-                </h2>
-                <a href="#">View more</a>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
-  
-          <div class="swiper-pagination"></div>
-      </section>
-  
-      <section class="swiper-container mySwiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="inner">
-              <div class="up">
-                <img src="img/bg1.jpg"/>
-                <h2>Netflix - Watch TV Shows Online</h2>
-              </div>
-              <div class="row">
-                <span>Netflix/span>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="inner">
-              <div class="up">
-                <img src="img/bg2.jpg"/>
-                <h2>KAKAO Entertainment</h2>
-              </div>
-              <div class="row">
-                <span>KAKAO</span>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="inner">
-              <div class="up">
-                <img src="img/bg3.jpg"/>
-                <h2>Join Friends on Instagram</h2>
-              </div>
-              <div class="row">
-                <span>Instagram</span>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="inner">
-              <div class="up">
-                <img src="img/bg4.jpg"/>
-                <h2>Facebook Brand Center</h2>
-              </div>
-              <div class="row">
-                <span>Facebook</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <section id="wrap">
 
+        <article class="swiper-wrapper">
+            <div class="swiper-slide sld1">
+                <div class="inner">
+                  <div class="gnb">
+                    <a href="#"><i class="fas fa-cog"></i> SETTINGS</a>
+                    <h1>HOME</h1>
+                    <span>12:45 PM</span>
+                  </div>
+                  <ul class="list">
+                    <li>
+                      <h2>WHATS NEW</h2>
+                      <p>check out items and the new releases that came out in juno</p>
+                      <i class="far far fa-folder-open"></i>
+                      <span></span>
+                    </li>
+                    <li>
+                      <h2>CHANNEL</h2>
+                      <p>Experience various VR contents by selected channels</p>
+                      <i class="far far fa-list-alt"></i>
+                      <span></span>
+                    </li>
+                    <li>
+                      <h2>FAVORITE</h2>
+                      <p>Save your favorite items and browser it anytime you want</p>
+                      <i class="far fa-heart"></i>
+                      <span></span>
+                    </li>
+                    <li>
+                      <h2>POPULAR</h2>
+                      <p>Browse through the most popular items at the moment</p>
+                      <i class="far fa-star"></i>
+                      <span></span>
+                    </li>
+                  </ul>
+
+                  <div class="search">
+                    <input type="search" placeholder="Search of articles">
+                    <button>SEARCH</button>
+                  </div>
+                  <ul class="tag">
+                    <li><a href="#">#Politics</a></li>
+                    <li><a href="#">#Science</a></li>
+                    <li><a href="#">#Movies</a></li>
+                    <li><a href="#">#Teachnology</a></li>
+                    <li><a href="#">#Chanel</a></li>
+                    <li><a href="#">#Favorite</a></li>
+                    <li><a href="#">#Popular</a></li>
+                  </ul>
+                </div>
+            </div>
+            <div class="swiper-slide sld2">
+                <div class="inner">
+                  <ul class="list">
+                    <li>
+                      <h2>01</h2>
+                      <h3>Home</h3>
+                      <p>Introduction</p>
+                      <div class="pic"></div>
+                      <span>2017.09.28</span>
+                    </li>
+                    <li>
+                      <h2>02</h2>
+                      <h3>Digital Assot</h3>
+                      <p>Financial company</p>
+                      <div class="pic"></div>
+                      <span>2017.02.13</span>
+                    </li>
+                    <li>
+                      <h2>03</h2>
+                      <h3>Bear Grylls</h3>
+                      <p>Adventurer</p>
+                      <div class="pic"></div>
+                      <span>2013.04.17</span>
+                    </li>
+                    <li>
+                      <h2>04</h2>
+                      <h3>Jemimah Barnett</h3>
+                      <p>Advisor</p>
+                      <div class="pic"></div>
+                      <span>2015.06.23</span>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+            <div class="swiper-slide sld3">
+                <div class="inner">
+                  <article class="left">
+                    <h1>About Us</h1>
+                    <h2>
+                      Damus di vollorupta velicium is molupictur sinem ipsamus nemquae ipideliqis equi ipsam sasum qui ommodic aborecabo
+                    </h2>
+                    <div class="pic">
+                      <video src="img/sld3_video.mp4" loop autoplay controls muted></video>
+                    </div>
+
+                    <ul class="list">
+                      <li>
+                        <h2>Adam Simpson</h2>
+                        <p>Web designer</p>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur asperiores assumenda illo inventore cupiditate nostrum aut. Corrupti sequi animi ducimus qui fuga natus in reiciendis, esse eveniet id similique neque! Saepe est eligendi, ut iste sit cum dignissimos commodi id.</p>
+                      </li>
+                    </ul>
+                  </article>
+                  <article class="right">
+                    <p>Talented Deigners</p>
+                    <h2>MEET THE TEAM</h2>
+                    <ul class="list">
+                      <li>
+                        <div class="info">
+                          <div class="pic"></div>
+                          <h2>Adam Simpson<span>Web Designer</span></h2>
+                        </div>
+                        <ul>
+                          <li>
+                            <p>cupnic Design</p>
+                            <span></span>
+                          </li>
+                          <li>
+                            <p>Web Design</p>
+                            <span></span>
+                          </li>
+                          <li>
+                            <p>javascript</p>
+                            <span></span>
+                          </li>
+                          <li>
+                            <p>html & css</p>
+                            <span></span>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <div class="info">
+                          <div class="pic"></div>
+                          <h2>Adam Simpson <br> <span>Web Designer</span></h2>
+                        </div>
+                        <ul>
+                          <li>
+                            <p>cupnic Design</p>
+                            <span></span>
+                          </li>
+                          <li>
+                            <p>Web Design</p>
+                            <span></span>
+                          </li>
+                          <li>
+                            <p>javascript</p>
+                            <span></span>
+                          </li>
+                          <li>
+                            <p>html & css</p>
+                            <span></span>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <div class="info">
+                          <div class="pic"></div>
+                          <h2>Adam Simpson <br> <span>Web Designer</span></h2>
+                        </div>
+                        <ul>
+                          <li>
+                            <p>cupnic Design</p>
+                            <span></span>
+                          </li>
+                          <li>
+                            <p>Web Design</p>
+                            <span></span>
+                          </li>
+                          <li>
+                            <p>javascript</p>
+                            <span></span>
+                          </li>
+                          <li>
+                            <p>html & css</p>
+                            <span></span>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <div class="info">
+                          <div class="pic"></div>
+                          <h2>Adam Simpson <br> <span>Web Designer</span></h2>
+                        </div>
+                        <ul>
+                          <li>
+                            <p>cupnic Design</p>
+                            <span></span>
+                          </li>
+                          <li>
+                            <p>Web Design</p>
+                            <span></span>
+                          </li>
+                          <li>
+                            <p>javascript</p>
+                            <span></span>
+                          </li>
+                          <li>
+                            <p>html & css</p>
+                            <span></span>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </article>
+                </div>
+            </div>
+            <div class="swiper-slide sld4">
+                <div class="inner">
+                  <h1>Meet The Team</h1>
+                  <div class="ceo">
+                    <div class="pic"></div>
+                    <div class="txt">
+                      <h2>CEO</h2>
+                      <h3>Lorem ipsum dolor sit.</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe maxime nobis numquam, necessitatibus exercitationem quibusdam facilis impedit fugit soluta consequuntur.</p>
+                    </div>
+                  </div>
+                  <ul class="list">
+                    <li>
+                      <div class="pic"></div>
+                      <h2>Lorem, ipsum.</h2>
+                      <h3>Lorem ipsum dolor sit.</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non reprehenderit ab molestias officiis ex eos eaque et placeat, minima enim?</p>
+                    </li>
+                    <li>
+                      <div class="pic"></div>
+                      <h2>Lorem, ipsum.</h2>
+                      <h3>Lorem ipsum dolor sit.</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non reprehenderit ab molestias officiis ex eos eaque et placeat, minima enim?</p>
+                    </li>
+                    <li>
+                      <div class="pic"></div>
+                      <h2>Lorem, ipsum.</h2>
+                      <h3>Lorem ipsum dolor sit.</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non reprehenderit ab molestias officiis ex eos eaque et placeat, minima enim?</p>
+                    </li>
+                    <li>
+                      <div class="pic"></div>
+                      <h2>Lorem, ipsum.</h2>
+                      <h3>Lorem ipsum dolor sit.</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non reprehenderit ab molestias officiis ex eos eaque et placeat, minima enim?</p>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+        </article>
+
+        <div class="swiper-pagination"></div>
+    </section>
 </body>
 </html>
