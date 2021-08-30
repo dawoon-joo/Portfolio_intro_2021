@@ -1,4 +1,4 @@
-const menu = ["Company", "About", "Information", "News"];
+const menu = ["About", "공기업사이트", "Swiper사이트", "Isotope사이트"];
 
 const swiper = new Swiper("#wrap", {
     loop: true,
@@ -25,6 +25,7 @@ const swiper = new Swiper("#wrap", {
 
 const bgs = document.querySelectorAll(".bg li");
 const navi = document.querySelectorAll(".swiper-pagination span");
+const intro = document.querySelectorAll(".main_intro");
 
 window.addEventListener("mousewheel", activation);
 swiper.on("slideChangeTransitionEnd", activation);
